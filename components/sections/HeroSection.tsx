@@ -53,7 +53,7 @@ const HeroSection = () => {
                 </Link>
                 <Link
                   target="_blank"
-                  href={"https://facebook.com.com"}
+                  href={"https://facebook.com.com/sobhan.kst"}
                   className="border-lightGreen text-lightGreen hover:bg-lightGreen aspect-square size-14 rounded-full border-2 bg-transparent p-3.5 shadow-2xl transition-all duration-500 hover:text-black"
                 >
                   <LuFacebook className="size-full" />

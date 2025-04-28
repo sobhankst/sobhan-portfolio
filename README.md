@@ -36,9 +36,9 @@ I’m **Abdus Sobhan**, a passionate Front-End Developer who loves crafting visu
 
 ## 🖼️ Screenshots
 
-|                  Desktop View                  |                 Mobile View                  |
-| :--------------------------------------------: | :------------------------------------------: |
-| ![Desktop Screenshot](screenshots/desktop.png) | ![Mobile Screenshot](screenshots/mobile.png) |
+|                     Desktop View                      |                     Mobile View                     |
+| :---------------------------------------------------: | :-------------------------------------------------: |
+| ![Desktop Screenshot](public/screenshots/desktop.png) | ![Mobile Screenshot](public/screenshots/mobile.png) |
 
 _Desktop version of the Portfolio_  
 _Mobile version of the Portfolio_
@@ -47,7 +47,7 @@ _Mobile version of the Portfolio_
 
 ## 🚀 Live Demo
 
-👉 [Click Here to Visit Live Website](https://your-live-website-link.com)
+👉 [Click Here to Visit Live Website](https://sobhan-dev.vercel.app/)
 
 ---
 
@@ -55,15 +55,15 @@ _Mobile version of the Portfolio_
 
     ✨ You can view some of my best works showcased beautifully inside the portfolio!
 
-    🚀 [Project 1](https://your-live-website-link.com)
+    🚀 [Project 1](https://sobhan-dev.vercel.app/)
 
 ---
 
 ## 📬 Connect with Me
 
 - 📧 Email: sobhan.kst@gmail.com
-- 💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/sobhan90)
-- 🐙 GitHub: [@your-username](https://github.com/sobhankst)
+- 💼 LinkedIn: [Sobhan](https://linkedin.com/in/sobhan90)
+- 🐙 GitHub: [@sobhankst](https://github.com/sobhankst)
 
 ---
 
