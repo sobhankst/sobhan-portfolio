@@ -27,11 +27,11 @@ export const metadata: Metadata = {
     title: "Abdus Sobhan | Front-End Developer Portfolio",
     description:
       "Explore the professional portfolio of Abdus Sobhan, showcasing expertise in React.js, Next.js, TypeScript, and Tailwind CSS.",
-    url: "https://yourdomain.com",
+    url: "https://sobhan-dev.vercel.app",
     siteName: "Abdus Sobhan Portfolio",
     images: [
       {
-        url: "https://yourdomain.com/your-preview-image.png",
+        url: "https://github.com/sobhankst/sobhan-portfolio/blob/main/public/preview.png",
         width: 1200,
         height: 630,
         alt: "Abdus Sobhan Portfolio Preview",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  metadataBase: new URL("https://yourdomain.com"),
+  metadataBase: new URL("https://sobhan-dev.vercel.app"),
 };
 
 export default function RootLayout({
