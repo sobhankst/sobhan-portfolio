@@ -30,7 +30,7 @@ const PortfolioSection = () => {
       className="mt-30 h-full w-full"
     >
       <div className="container mx-auto px-4">
-        <div className="mt-5 flex flex-col gap-5 md:flex-row">
+        <div className="mt-5 flex flex-col gap-5 pb-8 md:flex-row">
           {/* Left Side: Description */}
           <div className="flex-1/3 flex-col gap-4">
             <span className="text-shadow block text-6xl drop-shadow-2xl text-shadow-white">

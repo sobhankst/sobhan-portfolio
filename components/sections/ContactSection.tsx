@@ -10,7 +10,7 @@ const ContactSection = () => {
       className="mt-30 h-full w-full"
     >
       <div className="container mx-auto px-4">
-        <div className="flex flex-col gap-5 md:flex-row">
+        <div className="flex flex-col gap-5 pb-8 md:flex-row">
           {/* Left side address */}
           <div className="flex flex-1/3 flex-col gap-4">
             <h2 className="text-2xl font-medium">Let&apos;s Work Together</h2>

@@ -13,7 +13,7 @@ const HeroSection = () => {
       className="mt-30 w-full text-white"
     >
       <div className="container mx-auto px-4">
-        <div className="flex w-full flex-col items-center gap-5 md:flex-row md:items-center md:justify-between">
+        <div className="flex w-full flex-col items-center gap-5 pb-8 md:flex-row md:items-center md:justify-between">
           {/* Left Content */}
           <div className="order-2 flex flex-2/3 flex-col md:order-1">
             <h2 className="text-4xl font-bold md:text-6xl">Abdus Sobhan</h2>

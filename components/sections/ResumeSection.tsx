@@ -15,7 +15,7 @@ const ResumeSection = () => {
       className="mt-30 w-full text-white"
     >
       <div className="container mx-auto px-4">
-        <div className="flex flex-col space-x-8 overflow-hidden md:flex-row">
+        <div className="flex flex-col space-x-8 overflow-hidden pb-8 md:flex-row">
           <div className="flex flex-4/12 flex-col">
             <h2 className="text-3xl font-medium">Why Hire Me?</h2>
             <p className="text-sm">
