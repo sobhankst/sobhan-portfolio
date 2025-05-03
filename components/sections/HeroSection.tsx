@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { LuFacebook, LuGithub, LuLinkedin, LuYoutube } from "react-icons/lu";
 
 const HeroSection = () => {

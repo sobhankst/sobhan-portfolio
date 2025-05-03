@@ -1,6 +1,6 @@
 import { BiEnvelope, BiMap, BiPhone } from "react-icons/bi";
 import ContactForm from "../ContactForm";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 const ContactSection = () => {
   return (
     <motion.section

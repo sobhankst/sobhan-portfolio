@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import MyExperience from "../MyExperience";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import MyEducation from "../MyEducation";
 import MySkills from "../MySkills";
 import AboutMe from "../AboutMe";
