@@ -40,7 +40,7 @@ const PortfolioSection = () => {
         ease: "easeOut",
         delay: 0.2,
       }}
-      className="mt-30 w-full md:mt-40 lg:mt-30 xl:mt-36 2xl:mt-50"
+      className="mt-30 w-full md:mt-40 lg:mt-30 2xl:mt-50"
     >
       <div className="container mx-auto px-5 lg:px-10">
         <h2 className="text-center text-4xl font-semibold capitalize">

@@ -39,11 +39,9 @@ const MyEducation = () => {
           I completed a Diploma in Computer Engineering from Gurukul Institute
           of Technology in 2016, where I gained a solid foundation in software
           development, programming, and computer systems. During the same year,
-          I completed an internship in Web Development at DUSRA Soft Ltd., where
-          I acquired hands-on experience in building dynamic websites and web
-          applications.
+          I completed an internship in Web Development at DUSRA Soft Ltd.
         </p>
-        <div className="mt-3 max-h-[calc(100vh-380px)] overflow-y-auto scroll-smooth pb-6">
+        <div className="mt-3 max-h-[calc(100vh-300px)] overflow-y-auto scroll-smooth pb-6">
           {/* Card */}
           <div className="grid w-full grid-cols-1 gap-4 lg:grid-cols-2 xl:grid-cols-2">
             {education.map((edu, index) => (
