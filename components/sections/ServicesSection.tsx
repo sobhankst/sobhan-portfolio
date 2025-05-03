@@ -1,34 +1,41 @@
 import React from "react";
 import ServiceCard from "../ServiceCard";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { services } from "@/lib/constants";
 
 const ServicesSection = () => {
   return (
-    <motion.section
-      initial={{ opacity: 0, y: 40 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, ease: "easeInOut" }}
-      className="mt-30 w-full text-white"
-    >
-      <div className="container mx-auto px-4">
-        <h2 className="text-center text-xl font-semibold md:text-3xl">
-          My <span className="text-lightGreen">Services</span>
-        </h2>
-        <div className="mt-5 grid grid-cols-1 gap-4 pb-8 sm:grid-cols-2 lg:grid-cols-3">
-          {/* Service Card */}
+    <AnimatePresence mode="wait">
+      <motion.section
+        initial={{ opacity: 0, y: -100 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: 100 }}
+        transition={{
+          duration: 0.5,
+          ease: "easeOut",
+          delay: 0.2,
+        }}
+        className="mt-30 w-full text-white md:mt-40 lg:mt-28 xl:mt-32 2xl:mt-50"
+      >
+        <div className="container mx-auto px-5 lg:px-10">
+          <h2 className="text-center text-4xl font-bold">
+            My <span className="text-lightGreen">Services</span>
+          </h2>
+          <div className="grid w-full grid-cols-1 gap-4 overflow-y-auto py-6 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+            {/* Service Card */}
 
-          {services.map((service, i) => (
-            <ServiceCard
-              key={i}
-              title={service.title}
-              description={service.description}
-              icon={service.icon}
-            />
-          ))}
+            {services.map((service, i) => (
+              <ServiceCard
+                key={i}
+                title={service.title}
+                description={service.description}
+                icon={service.icon}
+              />
+            ))}
+          </div>
         </div>
-      </div>
-    </motion.section>
+      </motion.section>
+    </AnimatePresence>
   );
 };
 

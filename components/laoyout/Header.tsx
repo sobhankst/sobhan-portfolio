@@ -10,8 +10,8 @@ type HeaderProps = {
 const Header = ({ activeSection, onSelect }: HeaderProps) => {
   const [isMobile, setIsMobile] = useState(false);
   return (
-    <header className="bg-darkGray fixed top-0 left-0 z-10 w-full py-8 text-white">
-      <div className="container mx-auto px-4">
+    <header className="bg-darkGray fixed top-0 left-0 z-10 flex w-full items-center py-8 text-white">
+      <div className="container mx-auto px-5 lg:px-10">
         <div className="flex w-full items-center justify-between">
           {/* Logo */}
           <Link href={"/"} aria-label="logo" className="">

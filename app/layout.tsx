@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     siteName: "Abdus Sobhan Portfolio",
     images: [
       {
-        url: "https://raw.githubusercontent.com/sobhankst/sobhan-portfolio/refs/heads/main/public/preview.png",
+        url: "/preview.png",
         width: 1200,
         height: 630,
         alt: "Abdus Sobhan Portfolio Preview",

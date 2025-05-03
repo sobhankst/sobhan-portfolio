@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 @theme {
+  /* Screen */
+
   /* Fonts */
   --font-poppins: var(--font-poppins);
 

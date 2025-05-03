@@ -19,12 +19,12 @@ const ContactForm = () => {
   return (
     <form
       action={action}
-      className="bg-lightGray flex w-full max-w-lg flex-col space-y-3 rounded-lg p-5 shadow-2xl"
+      className="bg-lightGray flex w-full flex-col space-y-3 rounded-lg p-5 shadow-2xl"
     >
-      <h2 className="text-center text-xl font-medium">
+      <h2 className="text-center text-4xl font-medium">
         Contact <span className="text-lightGreen">Me!</span>
       </h2>
-      <div className="flex w-full flex-row gap-2">
+      <div className="flex w-full flex-col gap-2 lg:flex-row">
         <div className="w-full">
           <input
             type="text"
@@ -52,7 +52,7 @@ const ContactForm = () => {
           )}
         </div>
       </div>
-      <div className="flex w-full flex-row gap-2">
+      <div className="flex w-full flex-col gap-2 lg:flex-row">
         <div className="w-full">
           <input
             type="email"
