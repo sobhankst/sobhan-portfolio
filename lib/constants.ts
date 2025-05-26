@@ -1,4 +1,10 @@
 import { FaCode, FaMobileAlt, FaRocket } from "react-icons/fa";
+import {
+  PiFacebookLogo,
+  PiGithubLogo,
+  PiLinkedinLogo,
+  PiYoutubeLogo,
+} from "react-icons/pi";
 import { SiNextdotjs, SiTailwindcss, SiFramer } from "react-icons/si";
 
 // Nav links list
@@ -22,6 +28,34 @@ export const NavItems = [
   {
     id: 5,
     label: "contact",
+  },
+];
+
+// Social Links
+export const socialLinks = [
+  {
+    id: 1,
+    name: "Github",
+    icon: PiGithubLogo,
+    link: "https://github.com/sobhankst",
+  },
+  {
+    id: 2,
+    name: "Linkedin",
+    icon: PiLinkedinLogo,
+    link: "https://www.linkedin.com/in/sobhan90/",
+  },
+  {
+    id: 3,
+    name: "Facebook",
+    icon: PiFacebookLogo,
+    link: "https://facebook.com.com/sobhan.kst",
+  },
+  {
+    id: 4,
+    name: "Youtube",
+    icon: PiYoutubeLogo,
+    link: "https://www.youtube.com/@asrdevlab",
   },
 ];
 

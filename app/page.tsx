@@ -6,14 +6,11 @@ import PortfolioSection from "@/components/sections/PortfolioSection";
 import ResumeSection from "@/components/sections/ResumeSection";
 import ServicesSection from "@/components/sections/ServicesSection";
 import { AnimatePresence } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Home() {
   const [visibleSection, setVisibleSection] = useState<string | null>("home");
-  // ✅ Scroll to top on section change
-  useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }, [visibleSection]);
+
   return (
     <>
       <Header activeSection={visibleSection} onSelect={setVisibleSection} />
