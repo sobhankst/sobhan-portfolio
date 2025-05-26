@@ -17,7 +17,7 @@ const HeroSection = () => {
       className="mt-30 h-full w-full text-white md:mt-40 md:h-[calc(100vh-160px)] lg:mt-36 lg:h-[calc(100vh-144px)] xl:mt-40 xl:h-[calc(100vh-160px)] 2xl:mt-50 2xl:h-[calc(100vh-200px)]"
     >
       <div className="container mx-auto h-full px-5 lg:px-10">
-        <div className="flex h-full w-full flex-col items-center gap-4 pb-8 lg:flex-row lg:items-center lg:justify-between lg:pb-0">
+        <div className="grid h-full w-full grid-cols-1 flex-col items-center gap-5 pb-8 lg:grid-cols-2 lg:items-center lg:pb-0">
           {/* Left Content */}
           <div className="order-2 flex flex-col items-center lg:order-1 lg:basis-1/2 lg:items-start">
             <div className="w-full">
@@ -71,7 +71,12 @@ const HeroSection = () => {
           </div>
           {/* Right side content */}
           <div className="order-1 h-full w-full lg:order-2 lg:basis-1/2">
-            <div className="relative h-40 w-full md:h-full">
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 1.8, ease: "easeOut", delay: 0.3 }}
+              className="relative h-40 w-full md:h-full"
+            >
               {/* Hero Image */}
               <Image
                 src={"/images/developer.png"}
@@ -79,7 +84,7 @@ const HeroSection = () => {
                 alt="profile pic"
                 className="mask-b-from-darkGray mask-l-from-darkGray mask-b-from-60% mask-b-to-100% mask-l-from-60% mask-l-to-100% object-cover object-top"
               />
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
