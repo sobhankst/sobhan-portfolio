@@ -2,6 +2,7 @@
 import { ContactFormAction, FormState } from "@/lib/actions/ContactFormAction";
 import React, { useActionState, useEffect } from "react";
 import toast from "react-hot-toast";
+import { LuLoader } from "react-icons/lu";
 const initialState: FormState = {
   success: false,
 };
@@ -97,9 +98,14 @@ const ContactForm = () => {
         <button
           disabled={isPending}
           type="submit"
-          className="bg-lightGreen text-darkGray border-lightGreen shadow-lightGreen hover:text-lightGreen cursor-pointer rounded-full border px-6 py-2.5 font-medium shadow transition-all duration-300 ease-in-out hover:bg-transparent hover:shadow-none"
+          className={`flex items-center justify-center gap-2 rounded-full border px-6 py-2.5 font-medium transition-all duration-300 ease-in-out ${
+            isPending
+              ? "bg-lightGreen text-darkGray border-lightGreen shadow-lightGreen cursor-wait opacity-60"
+              : "bg-lightGreen text-darkGray border-lightGreen shadow-lightGreen hover:text-lightGreen cursor-pointer border shadow hover:bg-transparent hover:shadow-none"
+          }`}
         >
-          {isPending ? "Sending Message" : "Send Message"}
+          {isPending && <LuLoader className="h-4 w-4 animate-spin" />}
+          {isPending ? "Sending..." : "Send Message"}
         </button>
       </div>
     </form>
