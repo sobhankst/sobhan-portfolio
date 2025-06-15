@@ -14,12 +14,13 @@ const Header = ({ activeSection, onSelect }: HeaderProps) => {
       <div className="container mx-auto px-5 lg:px-10">
         <div className="flex w-full items-center justify-between">
           {/* Logo */}
-          <Link href={"/"} aria-label="logo" className="">
-            <h1 className="text-4xl font-bold">
-              Sobhan
-              <span className="text-lightGreen">.</span>
-            </h1>
-          </Link>
+          <h1
+            className="cursor-pointer text-4xl font-bold"
+            onClick={() => onSelect("home")}
+          >
+            Sobhan
+            <span className="text-lightGreen">.</span>
+          </h1>
 
           {/* Navigation Desktop menu */}
           <nav className={`hidden items-center space-x-5 md:flex`}>
