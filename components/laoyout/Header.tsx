@@ -1,6 +1,5 @@
 "use client";
 import { NavItems } from "@/lib/constants";
-import Link from "next/link";
 import React, { useState } from "react";
 import { BiMenu, BiX } from "react-icons/bi";
 type HeaderProps = {
